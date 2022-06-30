@@ -1,0 +1,8 @@
+//setting up json server
+
+npm init --yes
+
+npm i --save json-server
+
+//go to package.json->scripts:
+change "tests" to  "start":"json-server -p 3006 -w db.json"
